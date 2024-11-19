@@ -1,0 +1,232 @@
+/* 全体スタイル */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* フォームのスタイル */
+.signup-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.field {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* サインアップボタンのスタイル */
+.actions input[type="submit"] {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.actions input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* リンクのスタイル */
+.devise-links {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.devise-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.devise-links a:hover {
+  text-decoration: underline;
+}
+
+/* Sign Up & Log In form styles */
+.signup-form, .login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2, .login-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.field {
+  margin-bottom: 1em;
+}
+
+.field label {
+  font-weight: bold;
+  color: #555;
+}
+
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="password"] {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.actions {
+  text-align: center;
+}
+
+.actions input[type="submit"] {
+  padding: 0.7em 1.5em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.actions input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* 共通フォームスタイル: 編集フォーム */
+.edit-form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.field {
+  margin-bottom: 1em;
+}
+
+.field label {
+  font-weight: bold;
+  color: #555;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="password"] {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.field i {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 0.2em;
+}
+
+.actions {
+  text-align: center;
+}
+
+.actions input[type="submit"] {
+  padding: 0.7em 1.5em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.actions input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* アカウント削除セクション */
+h3 {
+  text-align: center;
+  color: #d9534f;
+  margin-top: 2em;
+}
+
+div.cancel-account {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 0.9rem;
+}
+
+div.cancel-account a {
+  color: #d9534f;
+  text-decoration: none;
+}
+
+div.cancel-account a:hover {
+  text-decoration: underline;
+}
+
+div.back-link {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 0.9rem;
+}
+
+div.back-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+div.back-link a:hover {
+  text-decoration: underline;
+}
